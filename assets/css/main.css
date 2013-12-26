@@ -1,0 +1,67 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #000000
+}
+
+* {
+	font-family: 'Ubuntu', sans-serif;
+	color: #ffffff;
+}
+
+#sections {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section {
+	opacity: 0;
+	position: relative;
+	padding: 0 20px
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 50px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+}
+
+p {
+	font-size: 30px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+}
+
+h1, p, div {
+	cursor: default;
+}
+
+span.bold {
+	white-space: nowrap;
+}
+
+.bold, .bold span {
+	font-weight: bold;
+}
+
+span.colored {
+	color: #fde8a6;
+}
+
+span.moving-letter {
+	display: inline-block;
+	position: relative;
+	-webkit-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+	-o-transition: all 700ms ease;
+	transition: all 700ms ease;
+	cursor: default;
+}
+
+img.avatar {
+	width: 200px
+}
+
+.info {
+	line-height: 28px;
+}
