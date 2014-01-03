@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>ned.im</title>
+    <meta name='description' content='Nedim Arabacı - Full-Stack Developer'/>
+    <meta name='keywords' content='frontend, backend, php, mysql, css, css3, html5, jquery, open-source'/>
+    <meta name="author" content="Nedim Arabacı"/>
+    <meta name="copyright" content="&copy; Copyright 2013"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
 </head>
 <body>
 
-    <div id="sections">
-
-        <div id="hi" class="section" data-is-active="true">
-
-            <img class="avatar" src="assets/img/nedim.jpeg" alt="Nedim Arabacı" />
-            <h1>Hoo! I am <span class="nedim bold">Nedim</span> <span class="arabaci bold">ARABACI</span></h1>
+    <div id="hi" class="section" data-is-active="true">
+        <img class="avatar" src="assets/img/nedim-big.png" alt="Nedim Arabacı" />
+        <div class="hi-content">
+            <h1>Hía! I am <span class="nedim bold">Nedim</span> <span class="arabaci bold">ARABACI</span></h1>
 
             <p>
-                I am a <span class="develop bold">develop</span>er who <span class="love bold">love</span>s open <span class="source bold">source</span>
+                I'm a <span class="develop bold">develop</span>er who <span class="love bold">love</span>s open <span class="source bold">source!</span>
             </p>
 
             <div class="info">
-                I am 25 years old developer for the last <span class="years bold">5 years</span>. Now in <span class="efabrika bold">Efabrika</span> I'm <span class="work bold">work</span>ing as a full-time <span class="backend bold">backend</span> & <span class="frontend bold">frontend</span> developer.
+                I'm 25 years old developer for the last <span class="years bold">5 years</span>.<br> Now in <span class="efabrika bold">Efabrika</span>, I'm <span class="work bold">work</span>ing as a full-time <span class="backend bold">backend</span> & <span class="frontend bold">frontend</span> developer.
             </div>
-
         </div>
-
-        <div id="me" class="section" data-is-active="false">
-
-        </div>
-
-        <div id="projects" class="section" data-is-active="false">
-
-        </div>
-
-        <div id="love" class="section" data-is-active="false">
-
-        </div>
-
-        <div id="contact" class="section" data-is-active="false">
-
-        </div>
-
     </div>
 
+    <div id="projects" class="section" data-is-active="false">
+        <h1>Projects</h1>
+        <div class="projects-content">
+            <p><img src="assets/img/noty-v2-logo.png" alt="noty - a jquery notification plugin"/></p>
+            <div class="info">
+                <span class="bold colored">NOTY</span> is a jQuery plugin that makes it easy to create <span class="bold colored">alert</span> - <span class="bold colored">success</span> - <span class="bold colored">error</span> - <span class="bold colored">warning</span> - <span class="bold colored">information</span> & <span class="bold colored">confirmation</span> messages as an alternative the standard alert dialog. Each notification is added to a queue.
+                <br><br>
+                The notifications can be positioned at the:<br>
+                <span class="bold colored">top</span> <br> <span class="bold colored">topLeft</span> - <span class="bold colored">topCenter</span> - <span class="bold colored">topRight</span> <br> <span class="bold colored">centerLeft</span> - <span class="bold colored">center</span> - <span class="bold colored">centerRight</span> <br> <span class="bold colored">bottomLeft</span> - <span class="bold colored">bottomCenter</span> - <span class="bold colored">bottomRight</span> <br> <span class="bold colored">bottom</span>
+                <br><br>
+                The API provides lots of other options to customise the text, animation, speed, buttons and much more.
+                <br>
+                It also has various callbacks for the buttons such as opening and closing the notifications and queue control.
+            </div>
+            <br>
+            <a class="take-a-look" href="http://ned.im/noty" target="_blank">TAKE A LOOK &rarr;</a>
+        </div>
+    </div>
+
+    <div id="contact" class="section" data-is-active="false">
+        <h1>Contact</h1>
+        <p>
+            <a class="contact-link" href="http://github.com/needim" target="_blank"><i class="fa fa-github"></i></a>
+            <a class="contact-link" href="http://linkedin.com/in/needim" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="contact-link" href="http://twitter.com/needim" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="contact-link" href="http://facebook.com/nedimarabaci" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="contact-link" href="http://instagram.com/needim" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a class="contact-link" href="http://stackoverflow.com/users/238314/needim" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+            <a class="contact-link" href="http://foursquare.com/needim" target="_blank"><i class="fa fa-foursquare"></i></a>
+            <a class="contact-link" href="http://gittip.com/needim" target="_blank"><i class="fa fa-gittip"></i></a>
+        </p>
+    </div>
+
+    <script type="text/javascript" src="assets/js/modernizr.js"></script>
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/jquery.transit.min.js"></script>
+    <script type="text/javascript" src="assets/js/curtain.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 
     <script>
@@ -54,7 +80,6 @@
 
         ga('create', 'UA-46744044-1', 'ned.im');
         ga('send', 'pageview');
-
     </script>
 
 </body>
