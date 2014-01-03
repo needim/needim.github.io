@@ -22,14 +22,21 @@
 			var section = this.getSection(id);
 			var sectionHeight = section.height();
 			var windowHeight = $(window).height();
-			var actualTopMargin = (windowHeight / 2) - sectionHeight;
+			var actualTopMargin = (windowHeight / 2) - sectionHeight + 100;
 
-			$('#sections').css('padding-top', actualTopMargin + 'px');
+			section.css('padding-top', actualTopMargin + 'px');
+
+			$('.section').on('mouseenter', '.moving-letter', function(e) {
+				$(this).trigger('reset').transition({
+					perspective: '100px',
+					rotateY: '+=360deg'
+				});
+			});
 
 			section.transition({
 				y: '100px',
 				opacity: 1
-			}, 1500, function() {
+			}, 1000, function() {
 				$.each(section.find('span'), function(i, _span) {
 					var span = $(_span);
 
@@ -43,15 +50,8 @@
 					$.each(span.find('.moving-letter'), function(i, ml) {
 						i++;
 						setTimeout(function() {
-							$(ml).addClass('colored').hover(
-								function() {
-									$(this).trigger('reset').transition({
-										perspective: '100px',
-										rotateY: '360deg'
-									});
-								}
-							);
-						}, i * ((Math.random() * 10) + 1) * 55);
+							$(ml).addClass('colored').trigger('mouseenter');
+						}, i * ((Math.random() * 10) + 1) * 45);
 					});
 
 				});
