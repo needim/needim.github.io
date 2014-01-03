@@ -18,7 +18,7 @@ html, body {
 	text-align: center;
 	background: #fff;
 	border-bottom: thin solid lightgray;
-	box-shadow: -20px 10px 10px -10px lightgray;
+	box-shadow: 0 10px 10px -10px lightgray
 }
 
 .section:last-child {
