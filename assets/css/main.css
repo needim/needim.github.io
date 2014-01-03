@@ -19,12 +19,15 @@ html, body {
 	background: #fff;
 	border-bottom: thin solid lightgray;
 	box-shadow: -20px 10px 10px -10px lightgray;
-	padding: 100px 20px
 }
 
 .section:last-child {
 	border: none;
 	box-shadow: none;
+}
+
+.section > div {
+	padding: 100px 20px
 }
 
 a {
@@ -111,3 +114,12 @@ a.take-a-look:hover {
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
 }
+
+#projects {
+	background: #f8f8f8;
+}
+
+img.noty {
+	margin-left: 16px;
+}
+
