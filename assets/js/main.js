@@ -27,7 +27,7 @@
 				});
 			});
 
-			section.transition({
+			section.find('.hi-content').transition({
 				y      : '-=50px',
 				opacity: 1
 			}, 1000, function () {

@@ -61,7 +61,7 @@ h1, p, div {
 	cursor: default;
 }
 
-.projects-content {
+.project-content {
 	max-width: 850px;
 	margin: 0 auto;
 }
@@ -115,7 +115,7 @@ a.take-a-look:hover {
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
 }
 
-#projects {
+#project-noty, #project-numbars {
 	background: #f8f8f8;
 }
 
@@ -123,3 +123,23 @@ img.noty {
 	margin-left: 16px;
 }
 
+ul.project-features {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+i.love {
+	margin: 0 2px;
+	display: inline-block;
+	width: 13px;
+	height: 12px;
+	background: url(../img/love.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+
+.numbars-preview {
+	border: thin solid lightgray;
+	border-radius: 10px;
+}
