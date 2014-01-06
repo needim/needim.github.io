@@ -143,3 +143,9 @@ i.love {
 	border: thin solid lightgray;
 	border-radius: 10px;
 }
+
+footer {
+	position: relative;
+	font-size: 12px;
+	margin-top: 150px
+}
