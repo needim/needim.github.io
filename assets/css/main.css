@@ -142,6 +142,7 @@ i.love {
 .numbars-preview {
 	border: thin solid lightgray;
 	border-radius: 10px;
+	max-width: 100%;
 }
 
 footer {
