@@ -67,9 +67,13 @@
 		return check;
 	};
 
+//	if (!window.location.hash) {
+//		window.location.hash = 'hi';
+//	}
+
 	if (!mobilecheck()) {
 		$('.section').curtain(0, function (section) {
-//		console.log($(section).attr('id'));
+//		 window.location.hash = $(section).attr('id');
 		});
 	}
 
