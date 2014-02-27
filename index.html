@@ -1,44 +1,85 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>ned.im</title>
+    <title>Nedim Arabacı - Full Stack Developer</title>
+
     <meta name='description' content='Nedim Arabacı - Full-Stack Developer'/>
     <meta name='keywords' content='frontend, backend, php, mysql, css, css3, html5, jquery, open-source, noty, numbars, termic'/>
     <meta name="author" content="Nedim Arabacı"/>
     <meta name="copyright" content="&copy; Copyright 2013"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/normalize.css"/>
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
+
+
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,600,700" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top - 60}, 600);
+            });
+        });
+    </script>
 </head>
 <body>
-
-    <div id="hi" class="section" data-is-active="true">
-        <div class="hi-content">
-            <img class="avatar" src="assets/img/nedim-big.png" alt="Nedim Arabacı" />
-
-            <h1>Hía! It's me, <span class="nedim bold">Nedim</span> <span class="arabaci bold">ARABACI</span></h1>
-
-            <p>
-                I'm a <span class="develop bold">develop</span>er who <span class="love bold">love</span>s open <span class="source bold">source!</span>
-            </p>
-
-            <div class="info">
-                I've been working on <span class="web-development bold">web development</span> for <span class="years bold">5 years</span>.<br> Now in <span class="efabrika bold">Efabrika</span>, I'm <span class="work bold">work</span>ing as a full-time <span class="backend bold">backend</span> & <span class="frontend bold">frontend</span> developer.
+<div class="header">
+    <div class="header-top">
+        <div class="wrap">
+            <div class="logo cl-effect-3">
+                <a class="name" href="/">
+                    &Pi;EDIM ARABACI
+                </a>
             </div>
+            <nav class="cl-effect-3">
+                <a href="#noty" class="scroll">NOTY</a>
+                <a href="#termic" class="scroll">TERMIC</a>
+                <a href="#numbars" class="scroll">NUMBARS</a>
+                <a href="#pixel-race" class="scroll">PIXEL RACE</a>
+            </nav>
+            <div class="clear"></div>
         </div>
     </div>
+    <div class="header-bottom" id="hi">
+        <div class="wrap">
+            <h1>Hía! It's me, <strong class="header-name">Nedim Arabacı</strong></h1>
 
-    <div id="project-noty" class="section" data-is-active="false">
-        <div class="project-content">
-            <!--<h1>Projects</h1>-->
-            <p><img class="noty" src="assets/img/noty-v2-logo.png" alt="noty - a jquery notification plugin"/></p>
-            <div class="project-links">
+            <h3>I'm a <strong>developer</strong> who <strong>love</strong>s <strong>open source</strong>!</h3>
+            <h4>I've been working on <strong>web development</strong> for <strong>5 years</strong>.<br>
+                Now in <strong>Efabrika</strong>, I'm <strong>work</strong>ing as a full-time <strong>backend</strong> & <strong>frontend</strong> developer.</h4>
+
+            <p>
+                <a class="contact-link" href="http://github.com/needim" target="_blank"><i class="fa fa-github"></i></a>
+                <a class="contact-link" href="http://linkedin.com/in/needim" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="contact-link" href="http://twitter.com/needim" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="contact-link" href="http://facebook.com/nedimarabaci" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="contact-link" href="http://instagram.com/needim" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a class="contact-link" href="http://stackoverflow.com/users/238314/needim" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+                <a class="contact-link" href="http://foursquare.com/needim" target="_blank"><i class="fa fa-foursquare"></i></a>
+                <a class="contact-link" href="http://gittip.com/needim" target="_blank"><i class="fa fa-gittip"></i></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="divider-container">
+    <div class="doublediagonal-divider"></div>
+</div>
+
+<div class="main">
+    <div class="gray" id="noty">
+        <div class="wrap">
+
+            <div class="project-content">
+                <p><img src="images/noty-v2-logo.png" alt="noty"/></p>
+
+                <div class="project-links">
                     <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=noty&amp;type=watch&amp;count=true"
                             allowtransparency="true" frameborder="0" scrolling="0" width="97px" height="20px"></iframe>
 
@@ -50,104 +91,140 @@
 
                     <iframe src="http://ned.im/ghbtns/github-btn.html?user=needim&amp;repo=noty&amp;type=download&amp;count=true"
                             allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
-            </div><br>
-            <div class="info">
-                <span class="bold colored">NOTY</span> is a jQuery plugin that makes it easy to create <span class="bold colored">alert</span> - <span class="bold colored">success</span> - <span class="bold colored">error</span> - <span class="bold colored">warning</span> - <span class="bold colored">information</span> & <span class="bold colored">confirmation</span> messages as an alternative the standard alert dialog. Each notification is added to a queue.
+                </div>
+                <br>
+
+                <span class="bold colored">NOTY</span> is a jQuery plugin that makes it easy to create <span class="bold colored">alert</span> - <span class="bold colored">success</span> - <span class="bold colored">error</span> - <span
+                        class="bold colored">warning</span> - <span class="bold colored">information</span> & <span class="bold colored">confirmation</span> messages as an alternative the standard alert dialog. Each notification is added to a queue.
                 <br><br>
                 The notifications can be positioned at the:<br>
-                <span class="bold colored">top</span> <br> <span class="bold colored">topLeft</span> - <span class="bold colored">topCenter</span> - <span class="bold colored">topRight</span> <br> <span class="bold colored">centerLeft</span> - <span class="bold colored">center</span> - <span class="bold colored">centerRight</span> <br> <span class="bold colored">bottomLeft</span> - <span class="bold colored">bottomCenter</span> - <span class="bold colored">bottomRight</span> <br> <span class="bold colored">bottom</span>
+                <span class="bold colored">top</span> <br> <span class="bold colored">topLeft</span> - <span class="bold colored">topCenter</span> - <span class="bold colored">topRight</span> <br> <span class="bold colored">centerLeft</span> - <span
+                        class="bold colored">center</span> - <span class="bold colored">centerRight</span> <br> <span class="bold colored">bottomLeft</span> - <span class="bold colored">bottomCenter</span> - <span
+                        class="bold colored">bottomRight</span> <br> <span class="bold colored">bottom</span>
                 <br><br>
                 The API provides lots of other options to customise the text, animation, speed, buttons and much more.
                 <br>
                 It also has various callbacks for the buttons such as opening and closing the notifications and queue control.
+                <p><a class="take-a-look" href="http://ned.im/noty">MORE INFO</a></p>
             </div>
-            <br>
-            <a class="take-a-look" href="http://ned.im/noty">TAKE A LOOK &rarr;</a>
+
+        </div>
+        <div class="divider-container">
+            <div class="doublediagonal-divider revert"></div>
         </div>
     </div>
 
-    <div id="project-termic" class="section" data-is-active="false">
-        <div class="project-content">
-            <p><img class="termic" src="assets/img/termic-logo.png" alt="termic is an idea for personal pages and terminal lovers"/></p>
-            <div class="project-links">
-                <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=termic&amp;type=watch&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="83px" height="20px"></iframe>
+    <div id="termic">
+        <div class="wrap">
 
-                <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=termic&amp;type=fork&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+            <div class="project-content">
+                <p><img class="termic" src="images/termic-logo.png" alt="termic is an idea for personal pages and terminal lovers"/></p>
 
-                <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;type=follow&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
+                <div class="project-links">
+                    <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=termic&amp;type=watch&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="83px" height="20px"></iframe>
 
-                <iframe src="http://ned.im/ghbtns/github-btn.html?user=needim&amp;repo=termic&amp;type=download&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
-            </div><br>
-            <div class="info">
-                <span class="bold colored">TERMIC</span> is an <span class="bold colored">idea</span> for <span class="bold colored">personal page</span>s and <span class="bold colored">terminal</span> lovers <i class="love"></i>
-                <br><br>
-                <ul class="project-features">
-                    <li>You can add commands easily.</li>
-                    <li>Terminal has a default "<span class="bold colored">help</span>" command for listing available commands and "<span class="bold colored">clear</span>" for the clean screen.</li>
-                    <li>Command autocomplete with "<span class="bold colored">tab</span>" key.</li>
-                    <li>Command history support for "<span class="bold colored">up</span>", "<span class="bold colored">down</span>" arrow keys.</li>
-                    <li>If you want, you can able to create a blog with Termic.</li>
-                    <li>It's limited with your <span class="bold colored">imagination</span>.</li>
-                </ul>
-                
-            </div>
-            <br>
-            <a class="take-a-look" href="http://ned.im/termic">TAKE A LOOK &rarr;</a>
-        </div>
-    </div>
+                    <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=termic&amp;type=fork&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
 
-    <div id="project-numbars" class="section" data-is-active="false">
-        <div class="project-content">
-            <p><img class="numbars" src="assets/img/numbars-logo.png" alt="javascript number bars"/></p>
-            <div class="project-links">
-                <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=numbars&amp;type=watch&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="83px" height="20px"></iframe>
+                    <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;type=follow&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
 
-                <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=numbars&amp;type=fork&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
-
-                <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;type=follow&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
-
-                <iframe src="http://ned.im/ghbtns/github-btn.html?user=needim&amp;repo=numbars&amp;type=download&amp;count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
-            </div><br>
-            <div class="info">
-                <span class="bold colored">NUMBARS</span> is a plugin for <span class="bold colored">number visualization</span> with bars, like progressbar.
+                    <iframe src="http://ned.im/ghbtns/github-btn.html?user=needim&amp;repo=termic&amp;type=download&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
+                </div>
                 <br>
-                Actually the idea is came from games. Sort of life/health bar or in Clash of Clans gold/elixir bar.
-                <br><br>
-                <img class="numbars-preview" src="assets/img/numbars-preview.png" alt="numbars preview"/>
 
-            </div>
-            <br>
-            <a class="take-a-look" href="http://ned.im/numbars">TAKE A LOOK &rarr;</a>
-        </div>
-    </div>
+                <div class="info">
+                    <span class="bold colored">TERMIC</span> is an <span class="bold colored">idea</span> for <span class="bold colored">personal page</span>s and <span class="bold colored">terminal</span> lovers <i class="love"></i>
+                    <br><br>
+                    <ul class="project-features">
+                        <li>You can add commands easily.</li>
+                        <li>Terminal has a default "<span class="bold colored">help</span>" command for listing available commands and "<span class="bold colored">clear</span>" for the clean screen.</li>
+                        <li>Command autocomplete with "<span class="bold colored">tab</span>" key.</li>
+                        <li>Command history support for "<span class="bold colored">up</span>", "<span class="bold colored">down</span>" arrow keys.</li>
+                        <li>If you want, you can able to create a blog with Termic.</li>
+                        <li>It's limited with your <span class="bold colored">imagination</span>.</li>
+                    </ul>
 
-    <div id="project-pixel-race" class="section" data-is-active="false">
-        <div class="project-content">
-            <p><img class="pixel-race" src="assets/img/pixel-race-logo.png" alt="pixel race game"/></p>
-            <div class="info">
-                I built this <span class="bold colored">game</span> for short time <span class="bold colored">fun!</span>
+                </div>
                 <br>
-                ...and it's a little <span class="bold colored">hard</span> to <span class="bold colored">play</span>, but have fun <span class="bold colored">:)</span>
-                <br><br>
-                <img class="numbars-preview" src="assets/img/pixel-race-game-preview.png" alt="pixel race game preview"/>
 
+                <p><a class="take-a-look" href="http://ned.im/termic">MORE INFO</a></p>
             </div>
-            <br>
-            <a class="take-a-look" href="http://ned.im/pixel-race-game">PLAY &rarr;</a>
+
+        </div>
+
+        <div class="divider-container">
+            <div class="doublediagonal-divider"></div>
+        </div>
+    </div>
+    <div class="gray" id="numbars">
+        <div class="wrap">
+
+            <div class="project-content">
+                <p><img class="numbars" src="images/numbars-logo.png" alt="javascript number bars"/></p>
+
+                <div class="project-links">
+                    <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=numbars&amp;type=watch&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="83px" height="20px"></iframe>
+
+                    <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;repo=numbars&amp;type=fork&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+
+                    <iframe src="http://ghbtns.com/github-btn.html?user=needim&amp;type=follow&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
+
+                    <iframe src="http://ned.im/ghbtns/github-btn.html?user=needim&amp;repo=numbars&amp;type=download&amp;count=true"
+                            allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="20px"></iframe>
+                </div>
+                <br>
+
+                <div class="info">
+                    <span class="bold colored">NUMBARS</span> is a plugin for <span class="bold colored">number visualization</span> with bars, like progressbar.
+                    <br>
+                    Actually the idea is came from games. Sort of life/health bar or in Clash of Clans gold/elixir bar.
+                    <br><br>
+                    <img class="numbars-preview" src="images/numbars-preview.png" alt="numbars preview"/>
+
+                </div>
+                <br>
+
+                <p><a class="take-a-look" href="http://ned.im/numbars">MORE INFO</a></p>
+            </div>
+
+        </div>
+        <div class="divider-container">
+            <div class="doublediagonal-divider revert"></div>
         </div>
     </div>
 
-    <div id="contact" class="section" data-is-active="false">
-        <div class="contact-content">
-            <h1>Contact</h1>
+
+    <div class="" id="pixel-race">
+        <div class="wrap">
+
+            <div class="project-content">
+                <p><img class="pixel-race" src="images/pixel-race-logo.png" alt="pixel race game"/></p>
+
+                <div class="info">
+                    I built this <span class="bold colored">game</span> for short time <span class="bold colored">fun!</span>
+                    <br>
+                    ...and it's a little <span class="bold colored">hard</span> to <span class="bold colored">play</span>, but have fun <span class="bold colored">:)</span>
+                    <br><br>
+                    <img class="numbars-preview" src="images/pixel-race-game-preview.png" alt="pixel race game preview"/>
+
+                </div>
+                <br>
+
+                <p><a class="take-a-look" href="http://ned.im/pixel-race-game">PLAY</a></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="contact" class="footer">
+    <div class="wrap">
+        <div class="footer-menu">
             <p>
                 <a class="contact-link" href="http://github.com/needim" target="_blank"><i class="fa fa-github"></i></a>
                 <a class="contact-link" href="http://linkedin.com/in/needim" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -158,27 +235,31 @@
                 <a class="contact-link" href="http://foursquare.com/needim" target="_blank"><i class="fa fa-foursquare"></i></a>
                 <a class="contact-link" href="http://gittip.com/needim" target="_blank"><i class="fa fa-gittip"></i></a>
             </p>
-            <footer>
-                Hosted on <a href="http://pages.github.com" target="_blank"><i class="fa fa-github"></i> GitHub Pages</a>
-            </footer>
         </div>
+        <div class="clear"></div>
     </div>
+</div>
 
-    <script type="text/javascript" src="assets/js/modernizr.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.transit.min.js"></script>
-    <script type="text/javascript" src="assets/js/curtain.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-46744044-1', 'ned.im');
-        ga('send', 'pageview');
-    </script>
+    ga('create', 'UA-46744044-1', 'ned.im');
+    ga('send', 'pageview');
+</script>
 
 </body>
 </html>
+
+    	
+    	
+            
