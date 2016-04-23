@@ -394,6 +394,10 @@ a.button:hover {
   border-color: #948CE2;
 }
 
+span.duration {
+  font-size: 9px;
+}
+
 /* ---- */
 
 .projects-page-title {
@@ -514,7 +518,9 @@ i.fa.fa-heart {
   line-height: 78px;
   margin: 0;
 }
+
 h2 i.fa,
+h2 i[class^="fa-icon-"],
 h2 i.ps-icon {
   font-size: 16px;
   margin-right: 14px;
@@ -537,6 +543,13 @@ h2 i.ps-icon {
   position: relative;
   top: 3px;
   left: 2px;
+}
+
+h2.section-title .ps-icon:before {
+  margin: 0;
+  position: relative;
+  top: 2px !important;
+  left: 1px !important;
 }
 
 .event {
@@ -634,9 +647,38 @@ h2 i.ps-icon {
   z-index: -1;
 }
 
-.rainbow_border{
+.rainbow_border {
   border-image: -webkit-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 2%; border-image: -ms-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 2%; border-image: -moz-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 2%;
 }
+
+.section-title {
+  position: relative;
+  margin-bottom: 1em;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.section-title:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border-bottom: 4px solid #F4F6F7;
+}
+
+.section-title span {
+  position: relative;
+  display: inline-block;
+  padding-right: 1.4em;
+  background: #fff;
+}
+.section-title + p {
+  margin-top: 1em;
+}
+
+
 
 /* ==========================================================================
    Helper classes
