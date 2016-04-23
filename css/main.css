@@ -721,8 +721,8 @@ h2 i.ps-icon {
 }
 
 @media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px) {
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
   .profile-bio {
     width: 90%
   }
