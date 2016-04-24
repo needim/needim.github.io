@@ -675,7 +675,13 @@ h2.section-title .ps-icon:before {
   background: #fff;
 }
 .section-title + p {
-  margin-top: 1em;
+  margin-top: -10px;
+  padding-left: 65px;
+}
+
+.section-title + p .button {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 
