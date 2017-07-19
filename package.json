@@ -1,0 +1,37 @@
+{
+  "name": "ned-im",
+  "version": "1.0.0",
+  "description": "Nedim's personal page",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-download-stream": "0.0.13",
+    "gulp-jsbeautifier": "^2.1.1",
+    "gulp-json-transform": "^0.4.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-watch": "^4.3.11",
+    "showdown": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://needim@github.com/needim/needim.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "vcard",
+    "resume",
+    "portfolio"
+  ],
+  "author": "Nedim Arabacı",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/needim/needim.github.io/issues"
+  },
+  "homepage": "http://ned.im"
+}
