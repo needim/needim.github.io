@@ -9,13 +9,13 @@
       {
         "language": "javascript",
         "repository_count": 14,
-        "stars_count": 5735,
+        "stars_count": 5745,
         "city_rank": 1,
         "city_count": 73,
         "country_rank": 1,
-        "country_count": 1564,
-        "world_rank": 631,
-        "world_count": 826617
+        "country_count": 1568,
+        "world_rank": 630,
+        "world_count": 827868
       },
       {
         "language": "css",
@@ -24,9 +24,9 @@
         "city_rank": 3,
         "city_count": 36,
         "country_rank": 7,
-        "country_count": 785,
-        "world_rank": 1976,
-        "world_count": 392378
+        "country_count": 786,
+        "world_rank": 1979,
+        "world_count": 392884
       },
       {
         "language": "php",
@@ -34,10 +34,10 @@
         "stars_count": 6,
         "city_rank": 8,
         "city_count": 38,
-        "country_rank": 165,
-        "country_count": 903,
-        "world_rank": 36148,
-        "world_count": 350708
+        "country_rank": 166,
+        "country_count": 904,
+        "world_rank": 36199,
+        "world_count": 351110
       },
       {
         "language": "html",
@@ -45,10 +45,10 @@
         "stars_count": 2,
         "city_rank": 8,
         "city_count": 24,
-        "country_rank": 171,
-        "country_count": 562,
-        "world_rank": 47109,
-        "world_count": 216955
+        "country_rank": 172,
+        "country_count": 563,
+        "world_rank": 47263,
+        "world_count": 217888
       }
     ]
   }
