@@ -2,30 +2,30 @@
   "user": {
     "id": 5341011,
     "login": "needim",
-    "gravatar_url": "https://avatars0.githubusercontent.com/u/271912?v=3",
+    "gravatar_url": "https://avatars3.githubusercontent.com/u/271912?v=4",
     "city": "izmir",
     "country": "turkey",
     "rankings": [
       {
         "language": "javascript",
         "repository_count": 14,
-        "stars_count": 5745,
+        "stars_count": 5744,
         "city_rank": 1,
         "city_count": 73,
         "country_rank": 1,
         "country_count": 1568,
-        "world_rank": 630,
+        "world_rank": 631,
         "world_count": 827868
       },
       {
         "language": "css",
-        "repository_count": 5,
-        "stars_count": 128,
+        "repository_count": 4,
+        "stars_count": 126,
         "city_rank": 3,
         "city_count": 36,
         "country_rank": 7,
         "country_count": 786,
-        "world_rank": 1979,
+        "world_rank": 2002,
         "world_count": 392884
       },
       {
@@ -41,13 +41,13 @@
       },
       {
         "language": "html",
-        "repository_count": 1,
-        "stars_count": 2,
-        "city_rank": 8,
+        "repository_count": 2,
+        "stars_count": 4,
+        "city_rank": 4,
         "city_count": 24,
-        "country_rank": 172,
+        "country_rank": 91,
         "country_count": 563,
-        "world_rank": 47263,
+        "world_rank": 24917,
         "world_count": 217888
       }
     ]
