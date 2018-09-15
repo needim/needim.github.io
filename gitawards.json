@@ -9,23 +9,23 @@
       {
         "language":"javascript",
         "repository_count":16,
-        "stars_count":6490,
+        "stars_count":6515,
         "city_rank":1,
         "city_count":97,
         "country_rank":2,
         "country_count":1941,
-        "world_rank":715,
+        "world_rank":710,
         "world_count":986214
       },
       {
         "language":"css",
         "repository_count":4,
-        "stars_count":127,
+        "stars_count":129,
         "city_rank":3,
         "city_count":47,
         "country_rank":10,
         "country_count":959,
-        "world_rank":2369,
+        "world_rank":2340,
         "world_count":455396
       },
       {
@@ -40,6 +40,17 @@
         "world_count":227213
       },
       {
+        "language":"php",
+        "repository_count":2,
+        "stars_count":7,
+        "city_rank":9,
+        "city_count":53,
+        "country_rank":176,
+        "country_count":1094,
+        "world_rank":38320,
+        "world_count":400769
+      },
+      {
         "language":"html",
         "repository_count":2,
         "stars_count":6,
@@ -49,17 +60,6 @@
         "country_count":849,
         "world_rank":24982,
         "world_count":337342
-      },
-      {
-        "language":"php",
-        "repository_count":2,
-        "stars_count":6,
-        "city_rank":10,
-        "city_count":53,
-        "country_rank":194,
-        "country_count":1094,
-        "world_rank":42550,
-        "world_count":400769
       }
     ]
   }
