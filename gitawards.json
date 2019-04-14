@@ -1,65 +1,65 @@
 {
-  "user":{
-    "id":5341011,
-    "login":"needim",
-    "gravatar_url":"https://avatars3.githubusercontent.com/u/271912?v=4",
-    "city":"izmir",
-    "country":"turkey",
-    "rankings":[
+  "user": {
+    "id": 5341011,
+    "login": "needim",
+    "gravatar_url": "https://avatars3.githubusercontent.com/u/271912?v=4",
+    "city": "izmir",
+    "country": "turkey",
+    "rankings": [
       {
-        "language":"javascript",
-        "repository_count":16,
-        "stars_count":6515,
-        "city_rank":1,
-        "city_count":97,
-        "country_rank":2,
-        "country_count":1941,
-        "world_rank":710,
-        "world_count":986214
+        "language": "javascript",
+        "repository_count": 16,
+        "stars_count": 6806,
+        "city_rank": 1,
+        "city_count": 98,
+        "country_rank": 1,
+        "country_count": 1953,
+        "world_rank": 680,
+        "world_count": 987575
       },
       {
-        "language":"css",
-        "repository_count":4,
-        "stars_count":129,
-        "city_rank":3,
-        "city_count":47,
-        "country_rank":10,
-        "country_count":959,
-        "world_rank":2340,
-        "world_count":455396
+        "language": "css",
+        "repository_count": 4,
+        "stars_count": 129,
+        "city_rank": 3,
+        "city_count": 47,
+        "country_rank": 10,
+        "country_count": 966,
+        "world_rank": 2349,
+        "world_count": 456287
       },
       {
-        "language":"c#",
-        "repository_count":1,
-        "stars_count":8,
-        "city_rank":6,
-        "city_count":56,
-        "country_rank":114,
-        "country_count":839,
-        "world_rank":19604,
-        "world_count":227213
+        "language": "c#",
+        "repository_count": 1,
+        "stars_count": 8,
+        "city_rank": 6,
+        "city_count": 56,
+        "country_rank": 114,
+        "country_count": 843,
+        "world_rank": 19624,
+        "world_count": 227581
       },
       {
-        "language":"php",
-        "repository_count":2,
-        "stars_count":7,
-        "city_rank":9,
-        "city_count":53,
-        "country_rank":176,
-        "country_count":1094,
-        "world_rank":38320,
-        "world_count":400769
+        "language": "php",
+        "repository_count": 2,
+        "stars_count": 7,
+        "city_rank": 9,
+        "city_count": 53,
+        "country_rank": 176,
+        "country_count": 1099,
+        "world_rank": 38375,
+        "world_count": 401313
       },
       {
-        "language":"html",
-        "repository_count":2,
-        "stars_count":6,
-        "city_rank":4,
-        "city_count":40,
-        "country_rank":93,
-        "country_count":849,
-        "world_rank":24982,
-        "world_count":337342
+        "language": "html",
+        "repository_count": 2,
+        "stars_count": 6,
+        "city_rank": 4,
+        "city_count": 40,
+        "country_rank": 94,
+        "country_count": 858,
+        "world_rank": 25054,
+        "world_count": 338692
       }
     ]
   }

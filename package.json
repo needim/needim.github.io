@@ -5,14 +5,14 @@
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^2.18.12",
-    "gulp": "^3.9.1",
-    "gulp-download-stream": "0.0.13",
-    "gulp-jsbeautifier": "^2.1.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-download-stream": "0.0.19",
+    "gulp-jsbeautifier": "^3.0.0",
     "gulp-json-transform": "^0.4.2",
     "gulp-rename": "^1.2.2",
     "gulp-rigger": "^0.5.8",
-    "gulp-watch": "^4.3.11",
+    "gulp-watch": "^5.0.1",
     "showdown": "^1.7.1"
   },
   "scripts": {
@@ -33,5 +33,5 @@
   "bugs": {
     "url": "https://github.com/needim/needim.github.io/issues"
   },
-  "homepage": "http://ned.im"
+  "homepage": "https://ned.im"
 }
