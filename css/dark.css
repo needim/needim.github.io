@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body.dark ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+body.dark :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   opacity:  1;
+}
+body.dark ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+   opacity:  1;
+}
+body.dark :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+body.dark ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+body.dark ::placeholder { /* Most modern browsers support this now. */
+   color: #fff;
+}
+body.dark{
+	background-color: #000;
+	color: #bbb;
+}
+body.dark h3{
+	color: #fff;
+}
+body.dark .tokyo_tm_all_wrap .rightpart{
+	background-color: #24292f;
+}
+body.dark .tokyo_tm_all_wrap .rightpart_in{
+	border-left-color: #202020;
+}
+body.dark .tokyo_tm_home .social ul li .svg{
+	color: #fff;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+.tokyo_tm_all_wrap[data-color="blue"] .tokyo_tm_home .details .name span{color: #4169e1;}
+.tokyo_tm_all_wrap[data-color="blue"] .tokyo_tm_home .social ul li a:hover{color: #4169e1;}
+.tokyo_tm_all_wrap[data-color="green"] .tokyo_tm_home .details .name span{color: #66B95C;}
+.tokyo_tm_all_wrap[data-color="green"] .tokyo_tm_home .social ul li a:hover{color: #66B95C;}
+.tokyo_tm_all_wrap[data-color="brown"] .tokyo_tm_home .details .name span{color: #ff9800;}
+.tokyo_tm_all_wrap[data-color="brown"] .tokyo_tm_home .social ul li a:hover{color: #ff9800;}
+.tokyo_tm_all_wrap[data-color="pink"] .tokyo_tm_home .details .name span{color: #ff5e94;}
+.tokyo_tm_all_wrap[data-color="pink"] .tokyo_tm_home .social ul li a:hover{color: #ff5e94;}
+.tokyo_tm_all_wrap[data-color="orange"] .tokyo_tm_home .details .name span{color: #fa5b0f;}
+.tokyo_tm_all_wrap[data-color="orange"] .tokyo_tm_home .social ul li a:hover{color: #fa5b0f;}
+.tokyo_tm_all_wrap[data-color="black"] .tokyo_tm_home .details .name span{color: #000;}
+.tokyo_tm_all_wrap[data-color="black"] .tokyo_tm_home .social ul li a:hover{color: #000;}
+.tokyo_tm_all_wrap[data-color="white"] .tokyo_tm_home .details .name span{color: #fff;}
+.tokyo_tm_all_wrap[data-color="white"] .tokyo_tm_home .social ul li a:hover{color: #fff;}
+.tokyo_tm_all_wrap[data-color="purple"] .tokyo_tm_home .details .name span{color: #9200ee;}
+.tokyo_tm_all_wrap[data-color="purple"] .tokyo_tm_home .social ul li a:hover{color: #9200ee;}
+.tokyo_tm_all_wrap[data-color="sky"] .tokyo_tm_home .details .name span{color: #00D4BD;}
+.tokyo_tm_all_wrap[data-color="sky"] .tokyo_tm_home .social ul li a:hover{color: #00D4BD;}
+.tokyo_tm_all_wrap[data-color="cadetBlue"] .tokyo_tm_home .details .name span{color: #5e9e9f;}
+.tokyo_tm_all_wrap[data-color="cadetBlue"] .tokyo_tm_home .social ul li a:hover{color: #5e9e9f;}
+.tokyo_tm_all_wrap[data-color="olive"] .tokyo_tm_home .details .name span{color: #666d41;}
+.tokyo_tm_all_wrap[data-color="olive"] .tokyo_tm_home .social ul li a:hover{color: #666d41;}
+.tokyo_tm_all_wrap[data-color="crimson"] .tokyo_tm_home .details .name span{color: #e54b4b;}
+.tokyo_tm_all_wrap[data-color="crimson"] .tokyo_tm_home .social ul li a:hover{color: #e54b4b;}
+.tokyo_tm_all_wrap[data-color="red"] .tokyo_tm_home .details .name span{color: #fe0000;}
+.tokyo_tm_all_wrap[data-color="red"] .tokyo_tm_home .social ul li a:hover{color: #fe0000;}
+
